@@ -82,3 +82,18 @@ https://www.mutasi-produk.genzproject.my.id/api/
 
 Link Docs API:
 https://www.mutasi-produk.genzproject.my.id/docs/api/
+
+## Tampilan Dcos Api
+
+![Tampilan Docs Api](screenshot/docsapi.png)
+
+## Tampilan Admin
+
+Berikut ini adalah tampilan admin:
+![Tampilan Dashboard](screenshot/dashboard.png)
+![Tampilan Kategori Produk](screenshot/kategoriproduk.png)
+![Tampilan Produk](screenshot/produk.png)
+![Tampilan Stok Produk](screenshot/stokproduk.png)
+![Tampilan Lokasi](screenshot/lokasi.png)
+![Tampilan Mutasi](screenshot/mutasi.png)
+![Tampilan Pengguna](screenshot/pengguna.png)
