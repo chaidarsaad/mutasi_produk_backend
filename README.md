@@ -47,7 +47,7 @@ git clone https://github.com/chaidarsaad/mutasi_produk_backend.git
 cd nama-project
 cp .env.example .env
 docker-compose up -d --build
-docker exec -it app bash
+docker exec -it <nama_container_app> bash
 composer install
 php artisan key:generate
 php artisan migrate --seed
