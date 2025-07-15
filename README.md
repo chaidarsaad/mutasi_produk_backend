@@ -1,4 +1,4 @@
-# 📦 Aplikasi Manajemen Mutasi Produk (Laravel REST API) + Filament Admin Panel + Dedoc Scarmble (Docs for Api)
+# 📦 Aplikasi Manajemen Mutasi Produk (Laravel REST API) + Filament Admin Panel + Scramble for API Documentation
 
 Sistem REST API berbasis Laravel untuk manajemen produk, lokasi gudang, dan mutasi stok antar lokasi. Autentikasi menggunakan Laravel Sanctum, dan semua layanan dijalankan via Docker. Selain itu, tersedia **Filament Admin Panel** untuk kebutuhan dashboard berbasis web (GUI).
 
