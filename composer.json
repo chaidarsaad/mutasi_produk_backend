@@ -9,6 +9,7 @@
         "php": "^8.2",
         "awcodes/light-switch": "^1.0",
         "bezhansalleh/filament-shield": "^3.3",
+        "dedoc/scramble": "^0.12.23",
         "devonab/filament-easy-footer": "2.0",
         "filament/filament": "^3.3",
         "laravel-lang/lang": "^15.22",

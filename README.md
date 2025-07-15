@@ -43,7 +43,7 @@ Sistem REST API berbasis Laravel untuk manajemen produk, lokasi gudang, dan muta
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/nama-project.git
+git clone https://github.com/chaidarsaad/mutasi_produk_backend.git
 cd nama-project
 cp .env.example .env
 docker-compose up -d --build
