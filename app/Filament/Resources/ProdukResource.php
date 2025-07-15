@@ -62,7 +62,22 @@ class ProdukResource extends Resource
                             ->relationship('kategoriProduks', 'nama')
                             ->multiple()
                             ->preload()
-                            ->searchable(),
+                            ->searchable()
+                            ->createOptionForm([
+                                Section::make('Kategori')
+                                    ->collapsible()
+                                    ->columns(2)
+                                    ->schema([
+                                        Forms\Components\TextInput::make('nama')
+                                            ->unique(ignoreRecord: true)
+                                            ->required()
+                                            ->maxLength(255),
+                                        Forms\Components\TextInput::make('slug')
+                                            ->unique(ignoreRecord: true)
+                                            ->required()
+                                            ->maxLength(255),
+                                    ])
+                            ]),
                         Forms\Components\TextInput::make('kode_produk')
                             ->required()
                             ->maxLength(255),
