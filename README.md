@@ -53,12 +53,18 @@ php artisan key:generate
 php artisan migrate --seed
 ```
 
+untuk instalasi filament (lakukan jika ingin akses filament)
+
+```bash
+php artisan shield:super-admin 1
+```
+
 🔐 API Endpoint
 Akses melalui Postman atau aplikasi klien:
 http://localhost:8000/api
 
 🔐 Docs API
-Akses melalui Postman atau aplikasi klien:
+Akses melalui browser
 http://localhost:8000/docs/api
 
 🌐 Filament Admin Panel
@@ -70,3 +76,9 @@ https://blue-equinox-229547.postman.co/workspace/My-Workspace~6c1a8dc9-09cd-46f7
 
 Link uji coba:
 https://www.mutasi-produk.genzproject.my.id
+
+Link uji coba API:
+https://www.mutasi-produk.genzproject.my.id/api/
+
+Link Docs API:
+https://www.mutasi-produk.genzproject.my.id/docs/api/

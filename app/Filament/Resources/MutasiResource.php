@@ -62,6 +62,7 @@ class MutasiResource extends Resource
                             ->native(false)
                             ->required(),
                         Forms\Components\Select::make('user_id')
+                            ->label('Dicatat oleh')
                             ->disabled(fn($record) => in_array($record?->status, ['approved', 'cancelled']))
                             ->relationship('user', 'name')
                             ->preload()
@@ -83,6 +84,7 @@ class MutasiResource extends Resource
                             ->searchable()
                             ->required(),
                         Forms\Components\Select::make('created_by')
+                            ->label('Dibuat oleh')
                             ->disabled(fn($record) => in_array($record?->status, ['approved', 'cancelled']))
                             ->relationship('user', 'name')
                             ->preload()
