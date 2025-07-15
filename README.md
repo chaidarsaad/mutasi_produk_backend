@@ -83,9 +83,11 @@ https://www.mutasi-produk.genzproject.my.id/api/
 Link Docs API:
 https://www.mutasi-produk.genzproject.my.id/docs/api/
 
-## Tampilan Dcos Api
+## Tampilan Docs Api
 
 ![Tampilan Docs Api](images/docsapi.png)
+![Tampilan Docs Api](images/api1.png)
+![Tampilan Docs Api](images/api2.png)
 
 ## Tampilan Admin
 
