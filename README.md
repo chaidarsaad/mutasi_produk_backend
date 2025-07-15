@@ -56,7 +56,7 @@ php artisan migrate --seed
 untuk instalasi filament (lakukan jika ingin akses filament)
 
 ```bash
-php artisan shield:super-admin 1
+php artisan shield:super-admin
 ```
 
 🔐 API Endpoint
